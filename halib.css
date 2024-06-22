@@ -362,13 +362,13 @@ body {
 
 /* ..........////Food category///........... */
 
-#food {
+#f {
   padding: 5rem 0 10rem 0;
   -ms-user-select: none; 
   user-select: none;
 }
 
-#food h2 {
+#f h2 {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 400;
@@ -385,12 +385,17 @@ body {
     user-select: none;
 }
 
-.food-container {
+.f-container {
   display: flex;
   justify-content: space-between;
 }
 
-.food-container img {
+.f-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.f-container img {
   display: block;
   width: 100%;
   margin: auto;
@@ -483,7 +488,7 @@ body {
 
 /* .........../Food Menu/............ */
 
-.food-menu-heading {
+.f-menu-heading {
   text-align: center;
   font-size: 3.4rem;
   font-weight: 400;
@@ -501,7 +506,7 @@ body {
  
 }
 
-.food-menu-heading2 {
+.f-menu-heading2 {
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
@@ -519,14 +524,14 @@ body {
    
   }
 
-.food-menu-container {
+.f-menu-container {
   display: flex;
   flex-wrap: wrap;
   padding: 50px 0px 30px 0px;
   
 }
 
-.food-menu-container img {
+.f-menu-container img {
   display: block;
   width: 250px;
   height: 250px;
@@ -535,7 +540,7 @@ body {
   object-position: center;
 }
 
-.food-menu-item {
+.f-menu-item {
   display: flex;
   flex: 1 1 600px;
   justify-content: space-evenly;
@@ -549,7 +554,7 @@ body {
 
 
 
-.food-title {
+.f-title {
 
 
     font-size: 5em;
@@ -568,7 +573,7 @@ body {
   user-select: none;
 }
 
-.food-nigga {
+.f-nigga {
 
     position: absolute;
   width: 100%;
@@ -578,7 +583,7 @@ body {
   z-index: 1;
 }
 
-.food-description {
+.f-description {
   margin: auto 1.5rem;
   font-family: "Noto Sans Arabic", sans-serif;
   font-optical-sizing: auto;
@@ -603,7 +608,7 @@ body {
   user-select: none;
 }
 
-.food-description p {
+.f-description p {
   font-size: 28px;
   color: #ffffff;
   font-weight: 500;
@@ -613,7 +618,7 @@ body {
   
 }
 
-.food-description .food-price {
+.f-description .f-price {
   color: #ffffff;
   font-weight: 100;
   font-size: 24px;
@@ -887,16 +892,16 @@ body {
 
   /* ......./ food /......... */
 
-  .food-container {
+  .f-container {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .food-type:not(:last-child) {
+  .f-type:not(:last-child) {
     margin-bottom: 3rem;
   }
 
-  .food-type {
+  .f-type {
     box-shadow: 5px 5px 10px 0 #aaa;
   }
 
@@ -919,11 +924,11 @@ body {
     text-align: center;
   }
 
-  .food-menu-container img {
+  .f-menu-container img {
     margin: auto;
   }
 
-  .food-menu-item {
+  .f-menu-item {
     flex-direction: column;
     text-align: center;
     
@@ -933,18 +938,18 @@ body {
 
 
 
-  .food-link {
+  .f-link {
     display: block;
     text-align: center; /* Align link content (div) to center */
 }
 
-.food-menu-item {
+.f-menu-item {
     width: 360px; /* Set width as per your design */
     margin: 0 auto; /* Center the div horizontally */
 }
 
 /* Additional styles for better appearance */
-.food-menu-item .food-img img {
+.f-menu-item .f-img img {
     max-width: 100%; /* Make sure the image doesn't exceed its container */
 }
 
@@ -1080,9 +1085,6 @@ body {
         transform: translateX(1);
     }
 }
-
-
-
 
 
 
