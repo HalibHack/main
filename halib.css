@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+
+
+
+
 *,
 *::after,
 *::before {
@@ -311,8 +315,16 @@ body {
 .about-img {
   flex: 1 1 400px;
   padding: -100px;
-  transform: translateX(150%);
+  transform: translateX(-50%);
   animation: about-img-animation 1s ease-in-out forwards;
+}
+
+.about-img1 {
+  flex: 1 1 500px;
+  padding: -10px;
+  transform: translateX(150%);
+  animation: about-img-animation 1.3s ease-in-out forwards;
+  
 }
 
 @keyframes about-img-animation {
@@ -320,6 +332,7 @@ body {
     transform: translate(0);
   }
 }
+
 
 .about-text {
   flex: 1 1 400px;
@@ -1159,4 +1172,11 @@ body {
   color: #ffffff; /* Link color */
   font-size: 18px;
   font-style: bold;
+}
+
+
+@media (min-width: 768px) {
+  .menu-toggle {
+      display: none;
+  }
 }
